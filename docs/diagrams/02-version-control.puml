@@ -1,0 +1,18 @@
+@startuml 02-version-control
+skinparam shadowing false
+skinparam note {
+  BackgroundColor #1E1E1E
+  BorderColor #3C3C3C
+}
+title Git Bash - save points
+note as N
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>log<U+00A0><U+002D><U+002D>oneline</color></font>
+<font:monospaced><color:#E6E6E6>c6a967a<U+00A0>Change<U+00A0>output<U+00A0>to<U+00A0>2</color></font>
+<font:monospaced><color:#E6E6E6>909dce9<U+00A0>Add<U+00A0>first<U+00A0>version</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>status<U+00A0><U+002D><U+002D>short</color></font>
+<font:monospaced><color:#E6E6E6><U+00A0>M<U+00A0>app<U+002E>py</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>checkout<U+00A0><U+002D><U+002D><U+00A0>app<U+002E>py</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>cat<U+00A0>app<U+002E>py</color></font>
+<font:monospaced><color:#E6E6E6>print<U+0028>2<U+0029></color></font>
+end note
+@enduml

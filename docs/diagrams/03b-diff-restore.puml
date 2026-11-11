@@ -1,0 +1,24 @@
+@startuml 03b-diff-restore
+skinparam shadowing false
+skinparam note {
+  BackgroundColor #1E1E1E
+  BorderColor #3C3C3C
+}
+title Git Bash - Story
+note as N
+<font:monospaced><color:#78DC78><U+0024><U+00A0>echo<U+00A0><U+0027>garbled<U+00A0>text<U+0027><U+00A0><U+003E><U+00A0>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>diff</color></font>
+<font:monospaced><color:#E6E6E6>diff<U+00A0><U+002D><U+002D>git<U+00A0>a<U+002F>chapter1<U+002E>txt<U+00A0>b<U+002F>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#E6E6E6>index<U+00A0>d1d9470<U+002E><U+002E>02ca177<U+00A0>100644</color></font>
+<font:monospaced><color:#E6E6E6><U+002D><U+002D><U+002D><U+00A0>a<U+002F>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#E6E6E6><U+002B><U+002B><U+002B><U+00A0>b<U+002F>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#E6E6E6><U+0040><U+0040><U+00A0><U+002D>1<U+002C>2<U+00A0><U+002B>1<U+00A0><U+0040><U+0040></color></font>
+<font:monospaced><color:#E6E6E6><U+002D>Once<U+00A0>upon<U+00A0>a<U+00A0>time</color></font>
+<font:monospaced><color:#E6E6E6><U+002D>The<U+00A0>hero<U+00A0>wakes<U+00A0>up</color></font>
+<font:monospaced><color:#E6E6E6><U+002B>garbled<U+00A0>text</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>checkout<U+00A0><U+002D><U+002D><U+00A0>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>cat<U+00A0>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#E6E6E6>Once<U+00A0>upon<U+00A0>a<U+00A0>time</color></font>
+<font:monospaced><color:#E6E6E6>The<U+00A0>hero<U+00A0>wakes<U+00A0>up</color></font>
+end note
+@enduml

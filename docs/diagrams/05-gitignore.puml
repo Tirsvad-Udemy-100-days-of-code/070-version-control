@@ -1,0 +1,26 @@
+@startuml 05-gitignore
+skinparam shadowing false
+skinparam note {
+  BackgroundColor #1E1E1E
+  BorderColor #3C3C3C
+}
+title Git Bash - secret-project
+note as N
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>init<U+00A0><U+002D>q<U+00A0><U+002D>b<U+00A0>main</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>echo<U+00A0><U+0027>API<U+005F>KEY<U+003D>not<U+002D>a<U+002D>real<U+002D>key<U+0027><U+00A0><U+003E><U+00A0>secrets<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>echo<U+00A0><U+0027>print<U+0028>1<U+0029><U+0027><U+00A0><U+003E><U+00A0>main<U+002E>py</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>touch<U+00A0><U+002E>DS<U+005F>Store</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>status<U+00A0><U+002D><U+002D>short</color></font>
+<font:monospaced><color:#E6E6E6><U+003F><U+003F><U+00A0><U+002E>DS<U+005F>Store</color></font>
+<font:monospaced><color:#E6E6E6><U+003F><U+003F><U+00A0>main<U+002E>py</color></font>
+<font:monospaced><color:#E6E6E6><U+003F><U+003F><U+00A0>secrets<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>printf<U+00A0><U+0027><U+002E>DS<U+005F>Store<U+005C>nsecrets<U+002E>txt<U+005C>n<U+002A><U+002E>pyc<U+005C>n<U+002E>venv<U+002F><U+005C>n<U+0027><U+00A0><U+003E><U+00A0><U+002E>gitignore</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>status<U+00A0><U+002D><U+002D>short</color></font>
+<font:monospaced><color:#E6E6E6><U+003F><U+003F><U+00A0><U+002E>gitignore</color></font>
+<font:monospaced><color:#E6E6E6><U+003F><U+003F><U+00A0>main<U+002E>py</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>add<U+00A0><U+002E><U+00A0><U+0026><U+0026><U+00A0>git<U+00A0>commit<U+00A0><U+002D>qm<U+00A0><U+0027>Add<U+00A0>main<U+002E>py<U+00A0>and<U+00A0><U+002E>gitignore<U+0027></color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>ls<U+002D>files</color></font>
+<font:monospaced><color:#E6E6E6><U+002E>gitignore</color></font>
+<font:monospaced><color:#E6E6E6>main<U+002E>py</color></font>
+end note
+@enduml
