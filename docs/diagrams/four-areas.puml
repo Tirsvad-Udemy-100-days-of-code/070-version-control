@@ -1,0 +1,16 @@
+@startuml four-areas
+title The four areas of source control
+left to right direction
+skinparam rectangle {
+  RoundCorner 12
+}
+rectangle "Working\nDirectory" as WD #FFE6C8
+rectangle "Staging\nArea" as SA #FFF4C8
+rectangle "Local\nRepository" as LR #D6F0D6
+rectangle "Remote\nRepository" as RR #D2E4FA
+WD --> SA : git add
+SA --> LR : git commit
+LR --> RR : git push
+RR --> LR : git pull / git clone
+LR --> WD : git checkout
+@enduml
