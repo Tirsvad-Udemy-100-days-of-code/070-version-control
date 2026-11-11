@@ -86,6 +86,8 @@ the owner of the original repository merges it.
 ![Four areas](docs/images/08-four-areas.png)
 ![Fork and pull request](docs/images/07-fork-pull-request.png)
 
+The sequence diagram is PlantUML; the source is [fork-pull-request.puml](docs/diagrams/fork-pull-request.puml).
+
 ## 📋 Requirements
 
 - [Git][git-download] (on Windows, Git for Windows with Git Bash) - to repeat the
