@@ -1,0 +1,16 @@
+@startuml 01-install-git
+skinparam shadowing false
+skinparam note {
+  BackgroundColor #1E1E1E
+  BorderColor #3C3C3C
+}
+title Git Bash
+note as N
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0><U+002D><U+002D>version</color></font>
+<font:monospaced><color:#E6E6E6>git<U+00A0>version<U+00A0>2<U+002E>52<U+002E>0<U+002E>windows<U+002E>1</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>bash<U+00A0><U+002D><U+002D>version<U+00A0><U+007C><U+00A0>head<U+00A0><U+002D>1</color></font>
+<font:monospaced><color:#E6E6E6>GNU<U+00A0>bash<U+002C><U+00A0>version<U+00A0>5<U+002E>2<U+002E>37<U+0028>1<U+0029><U+002D>release<U+00A0><U+0028>x86<U+005F>64<U+002D>pc<U+002D>msys<U+0029></color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>echo<U+00A0><U+0024>SHELL</color></font>
+<font:monospaced><color:#E6E6E6><U+002F>bin<U+002F>bash<U+002E>exe</color></font>
+end note
+@enduml

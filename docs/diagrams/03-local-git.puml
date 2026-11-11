@@ -1,0 +1,30 @@
+@startuml 03-local-git
+skinparam shadowing false
+skinparam note {
+  BackgroundColor #1E1E1E
+  BorderColor #3C3C3C
+}
+title Git Bash - Story
+note as N
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>init<U+00A0><U+002D>b<U+00A0>main</color></font>
+<font:monospaced><color:#E6E6E6>Initialized<U+00A0>empty<U+00A0>Git<U+00A0>repository<U+00A0>in<U+00A0>C<U+003A><U+002F>Users<U+002F>jenst<U+002F>AppData<U+002F>Local<U+002F>Temp<U+002F>tmprlrpkox9<U+002F>Story<U+002F><U+002E>git<U+002F></color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>echo<U+00A0><U+0027>Once<U+00A0>upon<U+00A0>a<U+00A0>time<U+0027><U+00A0><U+003E><U+00A0>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>status<U+00A0><U+002D><U+002D>short</color></font>
+<font:monospaced><color:#E6E6E6><U+003F><U+003F><U+00A0>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>add<U+00A0>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>commit<U+00A0><U+002D>m<U+00A0><U+0027>Complete<U+00A0>chapter<U+00A0>1<U+0027></color></font>
+<font:monospaced><color:#E6E6E6><U+005B>main<U+00A0><U+0028>root<U+002D>commit<U+0029><U+00A0>95bb338<U+005D><U+00A0>Complete<U+00A0>chapter<U+00A0>1</color></font>
+<font:monospaced><color:#E6E6E6><U+00A0>1<U+00A0>file<U+00A0>changed<U+002C><U+00A0>1<U+00A0>insertion<U+0028><U+002B><U+0029></color></font>
+<font:monospaced><color:#E6E6E6><U+00A0>create<U+00A0>mode<U+00A0>100644<U+00A0>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>echo<U+00A0><U+0027>The<U+00A0>hero<U+00A0>wakes<U+00A0>up<U+0027><U+00A0><U+003E><U+003E><U+00A0>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>echo<U+00A0><U+0027>Chapter<U+00A0>two<U+0027><U+00A0><U+003E><U+00A0>chapter2<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>add<U+00A0><U+002E></color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>commit<U+00A0><U+002D>m<U+00A0><U+0027>Add<U+00A0>chapter<U+00A0>2<U+00A0>and<U+00A0>extend<U+00A0>chapter<U+00A0>1<U+0027></color></font>
+<font:monospaced><color:#E6E6E6><U+005B>main<U+00A0>2933d7c<U+005D><U+00A0>Add<U+00A0>chapter<U+00A0>2<U+00A0>and<U+00A0>extend<U+00A0>chapter<U+00A0>1</color></font>
+<font:monospaced><color:#E6E6E6><U+00A0>2<U+00A0>files<U+00A0>changed<U+002C><U+00A0>2<U+00A0>insertions<U+0028><U+002B><U+0029></color></font>
+<font:monospaced><color:#E6E6E6><U+00A0>create<U+00A0>mode<U+00A0>100644<U+00A0>chapter2<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>log<U+00A0><U+002D><U+002D>oneline</color></font>
+<font:monospaced><color:#E6E6E6>2933d7c<U+00A0>Add<U+00A0>chapter<U+00A0>2<U+00A0>and<U+00A0>extend<U+00A0>chapter<U+00A0>1</color></font>
+<font:monospaced><color:#E6E6E6>95bb338<U+00A0>Complete<U+00A0>chapter<U+00A0>1</color></font>
+end note
+@enduml

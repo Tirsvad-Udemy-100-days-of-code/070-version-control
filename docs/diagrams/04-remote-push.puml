@@ -1,0 +1,20 @@
+@startuml 04-remote-push
+skinparam shadowing false
+skinparam note {
+  BackgroundColor #1E1E1E
+  BorderColor #3C3C3C
+}
+title Git Bash - Story
+note as N
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>remote<U+00A0>add<U+00A0>origin<U+00A0><U+002E><U+002E><U+002F>remote<U+002E>git</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>remote<U+00A0><U+002D>v</color></font>
+<font:monospaced><color:#E6E6E6>origin<U+0009><U+002E><U+002E><U+002F>remote<U+002E>git<U+00A0><U+0028>fetch<U+0029></color></font>
+<font:monospaced><color:#E6E6E6>origin<U+0009><U+002E><U+002E><U+002F>remote<U+002E>git<U+00A0><U+0028>push<U+0029></color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>push<U+00A0><U+002D>u<U+00A0>origin<U+00A0>main<U+00A0>2<U+003E><U+0026>1<U+00A0><U+007C><U+00A0>tail<U+00A0><U+002D>3</color></font>
+<font:monospaced><color:#E6E6E6>branch<U+00A0><U+0027>main<U+0027><U+00A0>set<U+00A0>up<U+00A0>to<U+00A0>track<U+00A0><U+0027>origin<U+002F>main<U+0027><U+002E></color></font>
+<font:monospaced><color:#E6E6E6>To<U+00A0><U+002E><U+002E><U+002F>remote<U+002E>git</color></font>
+<font:monospaced><color:#E6E6E6><U+00A0><U+002A><U+00A0><U+005B>new<U+00A0>branch<U+005D><U+00A0><U+00A0><U+00A0><U+00A0><U+00A0><U+00A0>main<U+00A0><U+002D><U+003E><U+00A0>main</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>status<U+00A0><U+002D>sb</color></font>
+<font:monospaced><color:#E6E6E6><U+0023><U+0023><U+00A0>main<U+002E><U+002E><U+002E>origin<U+002F>main</color></font>
+end note
+@enduml

@@ -28,9 +28,11 @@ This repository therefore holds documentation only:
 - `docs/images/` - one screenshot per lecture step.
 - `src/` and `tests/` - not used on this day (no programming).
 
-The screenshots are terminal sessions rendered from real `git` commands run in a
-throwaway repository (the "Story" example from the lecture), plus two PlantUML diagrams. They are
-not frames from the course video, which is the instructor's copyrighted material.
+The screenshots are PlantUML diagrams (sources in `docs/diagrams/`, rendered to
+`docs/images/`). The terminal ones show the output of real `git` commands run in a
+throwaway repository (the "Story" example from the lecture); the others are
+sequence and flow diagrams. They are not frames from the course video, which is the
+instructor's copyrighted material.
 
 ## 🪜 Lecture steps
 
@@ -86,7 +88,7 @@ the owner of the original repository merges it.
 ![Four areas](docs/images/08-four-areas.png)
 ![Fork and pull request](docs/images/07-fork-pull-request.png)
 
-Both diagrams are PlantUML; the sources are [four-areas.puml](docs/diagrams/four-areas.puml) and [fork-pull-request.puml](docs/diagrams/fork-pull-request.puml).
+Sources: [four-areas.puml](docs/diagrams/four-areas.puml) and [fork-pull-request.puml](docs/diagrams/fork-pull-request.puml).
 
 ## 📋 Requirements
 

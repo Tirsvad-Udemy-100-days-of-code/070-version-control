@@ -1,0 +1,37 @@
+@startuml 06-branching
+skinparam shadowing false
+skinparam note {
+  BackgroundColor #1E1E1E
+  BorderColor #3C3C3C
+}
+title Git Bash - Story
+note as N
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>branch<U+00A0>alien<U+002D>plot</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>checkout<U+00A0>alien<U+002D>plot</color></font>
+<font:monospaced><color:#E6E6E6>Switched<U+00A0>to<U+00A0>branch<U+00A0><U+0027>alien<U+002D>plot<U+0027></color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>echo<U+00A0><U+0027>Aliens<U+00A0>land<U+0027><U+00A0><U+003E><U+00A0>chapter3<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>add<U+00A0><U+002E><U+00A0><U+0026><U+0026><U+00A0>git<U+00A0>commit<U+00A0><U+002D>qm<U+00A0><U+0027>Add<U+00A0>alien<U+00A0>plot<U+0027></color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>checkout<U+00A0>main</color></font>
+<font:monospaced><color:#E6E6E6>Your<U+00A0>branch<U+00A0>is<U+00A0>up<U+00A0>to<U+00A0>date<U+00A0>with<U+00A0><U+0027>origin<U+002F>main<U+0027><U+002E></color></font>
+<font:monospaced><color:#E6E6E6>Switched<U+00A0>to<U+00A0>branch<U+00A0><U+0027>main<U+0027></color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>ls</color></font>
+<font:monospaced><color:#E6E6E6>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#E6E6E6>chapter2<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>merge<U+00A0>alien<U+002D>plot<U+00A0><U+002D><U+002D>no<U+002D>ff<U+00A0><U+002D>m<U+00A0><U+0022>Merge<U+00A0>branch<U+00A0>alien<U+002D>plot<U+0022></color></font>
+<font:monospaced><color:#E6E6E6>Merge<U+00A0>made<U+00A0>by<U+00A0>the<U+00A0><U+0027>ort<U+0027><U+00A0>strategy<U+002E></color></font>
+<font:monospaced><color:#E6E6E6><U+00A0>chapter3<U+002E>txt<U+00A0><U+007C><U+00A0>1<U+00A0><U+002B></color></font>
+<font:monospaced><color:#E6E6E6><U+00A0>1<U+00A0>file<U+00A0>changed<U+002C><U+00A0>1<U+00A0>insertion<U+0028><U+002B><U+0029></color></font>
+<font:monospaced><color:#E6E6E6><U+00A0>create<U+00A0>mode<U+00A0>100644<U+00A0>chapter3<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>ls</color></font>
+<font:monospaced><color:#E6E6E6>chapter1<U+002E>txt</color></font>
+<font:monospaced><color:#E6E6E6>chapter2<U+002E>txt</color></font>
+<font:monospaced><color:#E6E6E6>chapter3<U+002E>txt</color></font>
+<font:monospaced><color:#78DC78><U+0024><U+00A0>git<U+00A0>log<U+00A0><U+002D><U+002D>oneline<U+00A0><U+002D><U+002D>graph</color></font>
+<font:monospaced><color:#E6E6E6><U+002A><U+00A0><U+00A0><U+00A0>b08a502<U+00A0>Merge<U+00A0>branch<U+00A0>alien<U+002D>plot</color></font>
+<font:monospaced><color:#E6E6E6><U+007C><U+005C><U+00A0><U+00A0></color></font>
+<font:monospaced><color:#E6E6E6><U+007C><U+00A0><U+002A><U+00A0>208145e<U+00A0>Add<U+00A0>alien<U+00A0>plot</color></font>
+<font:monospaced><color:#E6E6E6><U+007C><U+002F><U+00A0><U+00A0></color></font>
+<font:monospaced><color:#E6E6E6><U+002A><U+00A0>2933d7c<U+00A0>Add<U+00A0>chapter<U+00A0>2<U+00A0>and<U+00A0>extend<U+00A0>chapter<U+00A0>1</color></font>
+<font:monospaced><color:#E6E6E6><U+002A><U+00A0>95bb338<U+00A0>Complete<U+00A0>chapter<U+00A0>1</color></font>
+end note
+@enduml
