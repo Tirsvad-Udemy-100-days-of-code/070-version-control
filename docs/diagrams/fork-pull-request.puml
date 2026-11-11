@@ -1,0 +1,16 @@
+@startuml fork-pull-request
+title Forking and pull requests (Angela and Bangela)
+actor Bangela
+participant "Angela's repository\n(original, GitHub)" as Orig
+participant "Bangela's fork\n(her copy, GitHub)" as Fork
+participant "Bangela's computer\n(local clone)" as Local
+
+Bangela -> Orig : 1. Fork
+Orig -> Fork : copy of the repository
+Bangela -> Local : 2. git clone
+Bangela -> Local : 3. Change files,\ngit add, git commit
+Local -> Fork : 4. git push
+Bangela -> Orig : 5. Open pull request\n(from fork to original)
+note right of Orig : Only the owner (Angela)\ncan merge the pull request
+Orig -> Orig : 6. Review and merge
+@enduml
