@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; accepted with the Go verdict of the review record (autonomous, not independent) | pending |
+| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S02 | Initial version; accepted with the Go verdict of the review record (autonomous, not independent) | [aec3ba3] |
 
 ---
 
@@ -137,3 +137,4 @@ Proceed. The cost is small, the risk is low and the benefit is a documented, rev
 ---
 
 [SA-001]: ./stakeholder-analysis.md
+[aec3ba3]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/070-version-control/commit/aec3ba3c8f9c552e3854ee195a68f64128e82cb6
