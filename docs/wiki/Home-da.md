@@ -5,3 +5,7 @@
 Noter til Udemys 100 Days of Code, dag 70: Git, GitHub, `.gitignore`, grene og pull requests. Kun dokumentation; der er ingen programmering på denne dag.
 
 - [Forelæsningstrin](Lecture-Steps-da): hvad vi gjorde og lærte i hvert trin, med skærmbillede
+
+## Videre
+
+- [Projektdokumenter](Project-Documents-da): Projektets dokumenter (hvorfor det findes, hvem der er involveret, planen)
